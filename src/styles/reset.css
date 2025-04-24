@@ -1,0 +1,146 @@
+/* 0. Set rem units: 1rem = 10px */
+html {
+  font-size: 62.5%;
+}
+
+/* 1. Use a more intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. Set core body defaults */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+  color: #222;
+  font-family: inherit; /* Set your base font in global.css */
+}
+
+/* 4. Remove list styles on ul, ol elements with a list role */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 5. Anchor defaults */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 6. Make images, videos, and other media responsive */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* 7. Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+/* 8. Remove built-in form typography styles */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+  appearance: none;
+}
+
+/* 9. Remove all animations, transitions, and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* 10. Remove default table spacing */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 11. Headings and paragraphs: prevent text overflows */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  overflow-wrap: break-word;
+}
+
+/* 12. Set a root stacking context for React/Vite */
+#root,
+#__next {
+  isolation: isolate;
+}
+
+/* 13. Set default cursor for buttons */
+button {
+  cursor: pointer;
+}
+
+/* 14. Remove default fieldset and legend styles */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+/* 15. Remove textarea resize handle */
+textarea {
+  resize: vertical;
+}
+
+/* 16. Remove default quotes for blockquotes and q */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
