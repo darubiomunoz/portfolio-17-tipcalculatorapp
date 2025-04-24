@@ -1,0 +1,32 @@
+:root {
+    --layout-mobile-sm: 320px;
+    --layout-mobile: 375px;
+    --layout-tablet: 768px;
+    --layout-desktop: 1024px;
+    --layout-desktop-lg: 1440px;
+
+    --primary-color-green: hsl(172, 67%, 45%);
+    --primary-color-white: hsl(0, 100%, 100%);
+
+    --neutral-color-green900: hsl(183, 100%, 15%);
+    --neutral-color-grey500: hsl(186, 14%, 43%);
+    --neutral-color-grey400: hsl(184, 14%, 56%);
+    --neutral-color-grey200: hsl(185, 41%, 84%);
+    --neutral-color-grey50: hsl(189, 47%, 97%);
+
+    --font-size-input: 24px;
+    --font-size-h1: 32px;
+    --font-size-h2: 28px;
+    --font-size-h3: 24px;
+    --font-size-h4: 20px;
+    --font-size-h5: 18px;
+    --font-size-h6: 16px;
+    --font-size-p: 16px;
+    --font-size-small: 14px;
+    --font-size-xs: 12px;
+    --font-size-xxs: 10px;
+    --font-size-xxxs: 8px;
+    --font-size-xxl: 36px;
+    --font-size-xxxl: 48px;
+    --font-size-xxxl: 64px;
+}
