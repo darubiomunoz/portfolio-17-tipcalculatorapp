@@ -1,15 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/images/logo.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Logo from './assets/images/logo.svg'
+import styles from './styles/App.module.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      
-    </>
+    <div className={styles.app}>
+      <header className={styles.header}>
+        <div className={styles.logoContainer}>
+          <img src={Logo} alt="Logo" />
+        </div>
+      </header>
+      <main className={styles.main}>
+
+      </main>
+    </div>
   )
 }
 
